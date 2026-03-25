@@ -1,0 +1,5 @@
+name:avinashdaily_goal:watching movies
+name:hemanthdaily_goal:making videocall
+name:avinashdaily_goal:watching movies
+name:hemanthdaily_goal:making videocall
+name:pdaily_goal:p

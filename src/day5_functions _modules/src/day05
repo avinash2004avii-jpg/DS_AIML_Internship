@@ -1,0 +1,45 @@
+# def greet():
+#     print("hello Avi,welcome to the intership")
+# greet()
+
+# #ARGUMENTS
+# def add_numbers(a,b):
+#     return a+b
+# result=add_numbers(5,3)
+# print("the sum is",result)
+
+# #VERIABLE SCOPE
+# x=10
+# def show():
+#     x=3
+#     print(x)
+# show()
+# print(x)
+
+# # IMPORTING MODULES
+# import math
+# import random
+# print(math.sqrt(16))
+# print(random.uniform(1,100))#it print random floating points from 1 to 100
+# print(random.randint(1,100))#it print random numbers from 1 to 100
+
+# #creating custom mudules
+# import utils
+# print(utils.multiply(3,4))
+
+# #nameerror or importerror
+# import util
+# print(util.multiply(3,4))
+
+#**TASK-5 THE AREA AND PERIMITER TOOL
+
+def calc_rectangle(length,width):
+    area=length*width
+    perimeter=2*(length+width)
+    return area,perimeter
+length=int(input("enter the length:" ))
+width=int(input("enter the width : "))
+area,perimeter=calc_rectangle(length,width)
+print(f"the area of rectangle is: {area} the perimeter of rectangle is {perimeter}")
+
+#**TASK-6 THE LOGIC LIBRARY(CUSTOM MODULES)
